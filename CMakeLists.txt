@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(aws-iot-device-client)
 
 option(BUILD_SDK "Builds the aws-iot-device-sdk-cpp-v2 as part of build. Only do this if the SDK is not installed." ON)
-option(BUILD_TEST_DEPS "Builds the device client test dependencies as part of build. Only do this if you do not have gtest installed and you wish to run the tests." ON)
+option(BUILD_TEST_DEPS "Builds the device client test dependencies as part of build. Only do this if you do not have gtest installed and you wish to run the tests." OFF)
 option(LINK_DL "Links the dlopen library with the Device Client." OFF)
 option(EXCLUDE_JOBS "Builds the device client without the IoT Jobs Feature." OFF)
 option(EXCLUDE_DD "Builds the device client without the IoT Device Defender Feature." ON)
