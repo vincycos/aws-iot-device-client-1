@@ -6,7 +6,7 @@ option(BUILD_TEST_DEPS "Builds the device client test dependencies as part of bu
 option(LINK_DL "Links the dlopen library with the Device Client." OFF)
 option(EXCLUDE_JOBS "Builds the device client without the IoT Jobs Feature." OFF)
 option(EXCLUDE_DD "Builds the device client without the IoT Device Defender Feature." ON)
-option(EXCLUDE_ST "Builds the device client without the IoT Secure Tunneling Feature." OFF)
+option(EXCLUDE_ST "Builds the device client without the IoT Secure Tunneling Feature." ON)
 option(EXCLUDE_FP "Builds the device client without the IoT Fleet Provisioning Feature." ON)
 option(DISABLE_MQTT "WARNING: This flag is meant for internal use cases and will prevent Device Client features from operating. Builds the device client without MQTT Connection Management." OFF)
 option(EXCLUDE_SAMPLES "Builds the device client without any of the IoT Sample Features." OFF)
